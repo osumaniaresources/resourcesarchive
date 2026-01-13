@@ -50969,10 +50969,8 @@ if (message.attachments && message.attachments.length > 0) {
             }
         } else if (['jpg', 'jpeg'].includes(ext)) {
             folder = 'saragassets/Jpg';
-        } else if (['mp4', 'mov', 'exe', 'ini', 'html', 'gif', 'json', 'mp3', 'psd', 'txt', 'webp'].includes(ext)) {
+        } else if (['mp4', 'mov', 'exe', 'ini', 'html', 'gif', 'json', 'mp3', 'psd', 'txt', 'webp', 'pdn'].includes(ext)) {
             folder = 'saragassets/Misc';
-        } else if (['pdn'].includes(ext)) {
-            folder = 'saragassets/Pdn';
         } else if (ext === 'osk') {
             folder = 'saragassets/Osk';
         } else if (['zip', 'rar'].includes(ext)) {
